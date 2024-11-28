@@ -1,0 +1,40 @@
+<div class="back-button-container">
+  <button routerLink="/app" type="button" class="back-button">Voltar</button>
+</div>
+
+<div *ngIf="game">
+<h2>{{ game.title }}</h2>
+<div *ngIf="game" class="game-details">
+  <div class="game-body">
+    <img class="game-image" [src]="game.imgUrl" [alt]="'Imagem do ' + game.title">
+    <div class="game-body-content">
+      
+      <div class="buy-button-container">
+        <button class="delete-button" (click)="delete(game.id)">Deletar</button>
+      </div>
+
+      <div class="buy-button-container">
+        <button class="edit-button" (click)="update(game.id)">Editar</button>
+      </div>
+
+      <div style="position: relative; top: 10%;">
+        <p class="score"><b>Pontuação:</b> {{ game.score }}</p>
+        <p class="type"><b>Tipo:</b> {{ game.genre }}</p>
+        <p class="platforms"><b>Plataformas:</b> {{ game.platforms }}</p>
+        <p class="year"><b>Ano:</b> {{ game.year }}</p>
+      </div>
+
+    </div>
+  </div>
+  
+
+  <div style="margin-top: 2rem;">
+    <div>
+      <h3>Sobre o jogo</h3>
+    </div>
+    <p class="long-description">{{ game.longDescription }}</p>
+  </div>
+
+  <!-- Quero que coloca o video do trailer do jogo que tem o youtube -->
+</div>
+</div>

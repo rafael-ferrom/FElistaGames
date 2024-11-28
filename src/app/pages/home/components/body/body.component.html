@@ -1,0 +1,14 @@
+<h1 class="title">Catálogo de Jogos</h1>
+<div class="catalogo">
+  <div class="card" *ngFor="let game of games">
+    <img [src]="game.imgUrl" [alt]="'Imagem do ' + game.title">
+    <div class="card-content">
+      <h2 class="catalog-title">{{ game.title }}</h2>
+      <p>{{ game.shortDescription }}</p>
+      <p class="score">Ano de lançamento: {{ game.year }}</p>
+      <button class="button-edit" (click)="viewGame(game.id)">Ver mais</button>
+    </div>
+  </div>
+  
+</div>
+

@@ -1,0 +1,88 @@
+/* Tela de Login */
+.vh-100 {
+  height: 100vh !important;
+}
+
+.gradient-custom {
+  /* Background com um gradiente escuro para profundidade e elegância */
+  background: linear-gradient(135deg, #222222, #333333, #111111);
+}
+
+.card {
+  background-color: #1c1c1c; /* Fundo da Card para suavizar o contraste */
+  color: #f0f0f0;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para destacar */
+}
+
+/* Título e Textos */
+.card .fw-bold,
+.card h2.text-uppercase {
+  color: #f1c40f; /* Dourado para título */
+}
+
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Estilo dos Inputs */
+.form-outline .form-control {
+  background-color: #333333;
+  color: #f0f0f0;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 0.75rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-outline .form-control:focus {
+  border-color: #f1c40f; /* Destaque dourado ao focar */
+  box-shadow: 0 0 5px rgba(241, 196, 15, 0.5);
+  outline: none;
+}
+
+/* Label dos Campos */
+.form-outline .form-label {
+  color: #f1c40f;
+  font-weight: bold;
+}
+
+/* Mensagens de Erro */
+.text-danger {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Botão de Login */
+.btn-outline-light {
+  color: #f1c40f;
+  border-color: #f1c40f;
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #f1c40f;
+  color: #222;
+}
+
+/* Ícones de Redes Sociais */
+.d-flex .text-white i {
+  color: #f1c40f;
+  transition: color 0.3s ease;
+}
+
+.d-flex .text-white i:hover {
+  color: #d4ac0d;
+}
+
+/* Link de Registro */
+.text-white-50 a {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.text-white-50 a:hover {
+  color: #d4ac0d;
+}

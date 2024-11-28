@@ -1,0 +1,46 @@
+<div class="create-game-form">
+  <form [formGroup]="createForm" style="width: 60rem;">
+
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="text" id="title" class="form-control" formControlName="title"/>
+      <label class="form-label" for="title">Titulo</label>
+    </div>
+
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="text" id="year" class="form-control" formControlName="year" />
+      <label class="form-label" for="year">Ano de lançamento</label>
+    </div>
+
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="text" id="genre" class="form-control" formControlName="genre"/>
+      <label class="form-label" for="genre">Gênero</label>
+    </div>
+
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="text" id="platforms" class="form-control" formControlName="platforms"/>
+      <label class="form-label" for="platforms">Plataformas</label>
+    </div>
+
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="text" id="score" class="form-control" formControlName="score"/>
+      <label class="form-label" for="score">Nota de avaliação</label>
+    </div>
+
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="text" id="imgUrl" class="form-control" formControlName="imgUrl" placeholder="Coloque aqui o link para a imagem..." />
+      <label class="form-label" for="imgUrl">Foto da capa</label>
+    </div>
+
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="text" id="shortDescription" class="form-control" formControlName="shortDescription"/>
+      <label class="form-label" for="shortDescription">Descrição breve</label>
+    </div>
+
+    <div data-mdb-input-init class="form-outline mb-4">
+      <textarea class="form-control" id="longDescription" formControlName="longDescription" rows="4"></textarea>
+      <label class="form-label" for="longDescription">Descrição longa</label>
+    </div>
+    <!-- Submit button -->
+    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4" (click)="create()">Cadastrar</button>
+  </form>
+</div>

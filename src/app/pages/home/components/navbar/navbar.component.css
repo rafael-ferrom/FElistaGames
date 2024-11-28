@@ -1,0 +1,27 @@
+/* Estilos para o Navbar */
+.navbar {
+  background-color: black !important;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombras mais suaves */
+}
+
+.navbar-brand {
+  color: #f1c40f;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.navbar-toggler-icon {
+  color: #f1c40f;
+}
+
+.navbar .btn {
+  color: #f1c40f;
+  border-color: #f1c40f;
+}
+
+.navbar .btn:hover {
+  background-color: #f1c40f;
+  color: #222;
+}

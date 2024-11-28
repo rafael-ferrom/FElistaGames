@@ -1,0 +1,113 @@
+.back-button-container {
+  margin: 1rem;
+}
+
+.back-button {
+  background-color: #f1c40f;
+  color: #222;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #d4ac0d;
+}
+
+/* Título do Jogo */
+h2 {
+  text-align: center;
+  color: #f1c40f;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+/* Estilo para o Detalhe do Jogo */
+.game-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: #f0f0f0;
+}
+
+/* Imagem do Jogo */
+.game-image {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Container do Conteúdo Principal do Jogo */
+.game-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+/* Estilo para o Conteúdo de Texto */
+.game-body-content {
+  flex: 1;
+}
+
+/* Container dos Botões de Ações */
+.buy-button-container {
+  margin: 1rem 0;
+}
+
+.delete-button,
+.edit-button {
+  background-color: #f1c40f;
+  color: #222;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b; /* Vermelho para destacar o botão Deletar */
+  color: #f0f0f0;
+}
+
+.edit-button:hover {
+  background-color: #d4ac0d; /* Tom mais claro do dourado para Editar */
+}
+
+/* Estilo para as Informações Adicionais do Jogo */
+.score, .type, .platforms, .year {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.score b, .type b, .platforms b, .year b {
+  color: #f1c40f;
+}
+
+/* Seção "Sobre o Jogo" */
+.long-description {
+  font-size: 1rem;
+  color: #ccc;
+  margin-top: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Estilo para o Título da Descrição Longa */
+h3 {
+  color: #f1c40f;
+  margin-bottom: 0.5rem;
+}
+
